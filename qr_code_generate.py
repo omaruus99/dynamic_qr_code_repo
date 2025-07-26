@@ -1,6 +1,6 @@
 import qrcode
 
-base_url = "https://github.com/"
+base_url = "https://ton-app.onrender.com/qrcode/"
 
 client_id = input("Identifiant unique du client (ex: client001) : ")
 full_url = base_url + client_id
