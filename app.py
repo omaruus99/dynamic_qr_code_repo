@@ -7,7 +7,7 @@ def load_redirects():
     with open('redirects.json', 'r') as f:
         return json.load(f)
 
-@app.route('/qrcode/<client_id>')
+@app.route('/<client_id>')
 def redirect_qr(client_id):
     redirects = load_redirects()
     url = redirects.get(client_id)
