@@ -1,6 +1,6 @@
 import qrcode
 
-base_url = "https://ton-app.onrender.com/qrcode/"
+base_url = "https://dynamic-qr-code-repo.onrender.com/"
 
 client_id = input("Identifiant unique du client (ex: client001) : ")
 full_url = base_url + client_id
