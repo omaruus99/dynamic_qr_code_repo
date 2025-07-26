@@ -16,5 +16,7 @@ def redirect_qr(client_id):
     return abort(404, description="QR code non reconnu")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    #app.run(debug=True)
+    app.run(host='0.0.0.0', port=10000, debug=True)
+
 
