@@ -3,8 +3,8 @@ import json
 
 app = Flask(__name__)
 
-DEFAULT_URL = "https://www.google.com"
-
+#DEFAULT_URL = "https://www.google.com"
+DEFAULT_URL = "https://reviewdz.dev/"
 def load_redirects():
     with open('redirects.json', 'r') as f:
         return json.load(f)
